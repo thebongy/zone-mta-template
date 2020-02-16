@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-RUN apk add --no-cache dumb-init
+RUN apk add --no-cache dumb-init make python
 
 WORKDIR /zone-mta
 COPY . .
