@@ -2,7 +2,7 @@ FROM node:lts-alpine
 
 RUN apk add --no-cache dumb-init
 
-WORKDIR /zone-mta
+WORKDIR /zonemta
 COPY . .
 
 RUN npm install --production
